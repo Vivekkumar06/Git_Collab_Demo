@@ -5,8 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mens</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      #container {
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #container > div {
+        width: 47%;
+      }
+
+      #container > div:first-child > div > img {
+        width: 25%;
+        display: block;
+        margin: auto;
+      }
+      #container > div:last-child > div > img {
+        width: 40%;
+        display: block;
+        margin: auto;
+      }
+      #container > div:first-child h1 {
+        margin-top: 25px;
+      }
+      #container > div:last-child h1 {
+        margin-top: 15px;
+      }
+      h1 {
+        margin-left: 20px;
+        font-family: Roboto, Arial, sans-serif;
+        color: #303131;
+      }
+      h1 + p {
+        margin-left: 20px;
+        font-family: Roboto, Arial, sans-serif;
+        color: gray;
+        font-size: 2rem;
+        font-weight: inherit;
+        line-height: 1.4;
+      }
+      #container > div > div:last-child {
+        margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+      }
+      #container > div > div:last-child > p:nth-child(1) {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+      #container > div > div:last-child > p:nth-child(2) {
+        color: gray;
+        font-size: 2.2rem;
+        margin-left: 15px;
+        margin-top: 4px;
+      }
+      #container > div > div:last-child > p:nth-child(2) > s:first-child {
+        font-size: 1.9rem;
+      }
+      #container > div > div:last-child > p:nth-child(3) {
+        color: #28a745;
+        font-size: 2.2rem;
+        margin-left: 10px;
+        margin-top: 4px;
+        font-weight: bold;
+        font-family: Roboto, Arial, sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <h1>Work is on Progress</h1>
+    <div id="container">
+      <!---------- Image box 1------------------------>
+      <div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/612/612/jf9zxjk0/shrug/y/d/y/xxl-pasrg03181192-blk-pause-original-imaf3scthzumcghm.jpeg?q=70"
+            alt="pause"
+          />
+        </div>
+        <h1>Pause</h1>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div>
+          <p>₹ 359</p>
+          <p>
+            <s>₹</s>
+            <s>1,499</s>
+          </p>
+          <p>-76%</p>
+        </div>
+      </div>
+      <!-------------  Image box 2 ------------------>
+      <div>
+        <div>
+          <img
+            src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq"
+            alt="Jubination"
+          />
+        </div>
+        <h1>JUBINATION</h1>
+        <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+        <div>
+          <p>₹ 799</p>
+          <p>
+            <s>₹</s>
+            <s>1,499</s>
+          </p>
+          <p>-47%</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
